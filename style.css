@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-
 body{
   background-image: url("./img/pattern-background-desktop.svg");
   background-repeat: no-repeat;
@@ -31,6 +30,10 @@ button{
   border-radius: 10px;
   font-weight: 700; 
   font-size: 16px;
+}
+
+button:hover{
+  cursor: pointer;
 }
 
 .bold-text{
