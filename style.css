@@ -59,8 +59,9 @@ button{
 .plan{
   background-color: #f9f9f9;
   margin: 0 10%;
+  margin-bottom: 20px;
   padding: 20px 0;
-  border-radius: 5px;
+  border-radius: 10px;
 
   display: flex;
   justify-content: space-between;
