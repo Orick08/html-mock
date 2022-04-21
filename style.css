@@ -32,6 +32,7 @@ p{
   color: gray;
 
   padding: 10px 10%;
+  margin-bottom: 20px;
 }
 
 button{
@@ -39,7 +40,7 @@ button{
   margin: 10 0;
   padding: 20px 20%;
   border-radius: 10px;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 16px;
 }
 
@@ -72,12 +73,17 @@ button:hover{
   width: 100%;
 }
 
+.content{
+  width: 80%;
+  margin-left: 10%;
+}
+
 .plan{
   background-color: #f9f9f9;
-  margin: 0 10%;
   margin-bottom: 20px;
   padding: 20px 0;
   border-radius: 10px;
+  max-width: 100%;
 
   display: flex;
   justify-content: space-between;
